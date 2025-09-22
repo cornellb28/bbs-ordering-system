@@ -1,0 +1,64 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Ramen"
+    },
+    {
+      "id": 2,
+      "name": "Sides"
+    },
+    {
+      "id": 3,
+      "name": "Drinks"
+    }
+  ],
+  "menuItems": [
+    {
+      "id": 101,
+      "name": "Tonkotsu Ramen",
+      "price": 14.99,
+      "categoryId": 1,
+      "description": "Rich pork broth with noodles, pork belly, and soft-boiled egg."
+    },
+    {
+      "id": 102,
+      "name": "Spicy Miso Ramen",
+      "price": 15.99,
+      "categoryId": 1,
+      "description": "Miso broth with chili paste, noodles, and seasonal veggies."
+    },
+    {
+      "id": 201,
+      "name": "Gyoza",
+      "price": 6.99,
+      "categoryId": 2,
+      "description": "Pan-fried dumplings with soy dipping sauce."
+    },
+    {
+      "id": 301,
+      "name": "Green Tea",
+      "price": 2.99,
+      "categoryId": 3,
+      "description": "Hot or iced Japanese green tea."
+    }
+  ],
+  "orders": [
+    {
+      "orderId": "ORD001",
+      "customerName": "Cornell Benson",
+      "items": [
+        {
+          "menuItemId": 101,
+          "quantity": 2
+        },
+        {
+          "menuItemId": 201,
+          "quantity": 1
+        }
+      ],
+      "total": 36.97,
+      "status": "pending"
+    }
+  ]
+}
